@@ -1,0 +1,28 @@
+{
+  "name": "burgers",
+  "version": "1.0.0",
+  "description": "Project built to utilize node, mysql, handlebars, and ORMs to have the user input a burger and then have the ability to \"devour\" the burger. Developing a CRUD method to interact with.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realMattyFitzz/Burgers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realMattyFitzz/Burgers/issues"
+  },
+  "homepage": "https://github.com/realMattyFitzz/Burgers#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "stack": "^0.1.0"
+  }
+}
